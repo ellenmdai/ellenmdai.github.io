@@ -1,0 +1,1 @@
+following this tutorial for Jekyll: http://jmcglone.com/guides/github-pages/
