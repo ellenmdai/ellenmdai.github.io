@@ -17,19 +17,44 @@ name: Ellen Dai
 title: Ellen Dai
 email: ellenmengdai@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software engineer. Bay Area. Student at Washington University in St. Louis. Me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "ellenmdai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  ellenmdai
 
+# change
+author: Ellen Dai
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/ellenmdai
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/ellen-dai-07667b12a/
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
+
 # Build settings
 markdown: kramdown
-remote_theme: andrewbanchich/forty-jekyll-theme
+# remote_theme: andrewbanchich/forty-jekyll-theme
 plugins:
   - jekyll-feed
+sass:
+  style: compressed
 
  # permalink: /blog/:year/:month/:day/:title
 
